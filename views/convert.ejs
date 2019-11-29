@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='stylesheets/style.css' />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css' />
+</head>
+
+<body>
+    <img class="img-responsive" src="https://previews.123rf.com/images/rastudio/rastudio1606/rastudio160601931/57828716-android-with-gear-vector-sketch-icon-isolated-on-background-hand-drawn-android-with-gear-icon-androi.jpg" width="150px" height="150px"
+        alt="WebToAndroid">
+    <h1>
+        <%= title %>
+    </h1>
+    <p>Finished conversion of
+        <b><%= url_to_convert %></b>. Click the Download button to download your Android project as a ZIP file.
+        <% if (button_visibility) { %>
+            <form action="/download" method="GET">
+                <input type="submit" class="btn btn-primary pull-left" value="Download">
+            </form>
+            <%}%>
+    </p>
+</body>
+
+</html>

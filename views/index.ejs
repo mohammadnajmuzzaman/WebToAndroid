@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='stylesheets/style.css' />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css' />
+</head>
+
+<body>
+    <img class="img-responsive" src="https://previews.123rf.com/images/rastudio/rastudio1606/rastudio160601931/57828716-android-with-gear-vector-sketch-icon-isolated-on-background-hand-drawn-android-with-gear-icon-androi.jpg" width="150px" height="150px"
+        alt="WebToAndroid">
+    <h1>
+        <%= title %>
+    </h1>
+    <form name="url_form" method="POST" action="/convert">
+        <label for="url_input">Enter the web app/website URL to convert to an Android project</label>
+        <p class="help-block">Please be patient after starting conversion. This may take a few moments.<br>The resultant Android project can be used built further normally or you can just use JSON markup. Read more at <a href="https://jasonelle.com">The Jasonelle Project</a>.</p>
+        <input class="form-control" name="url_input" id="url_input_id" placeholder="https://"><br>
+        <input class="btn btn-primary pull-left" type="submit" value="Convert"></button>
+    </form>
+</body>
+
+</html>
