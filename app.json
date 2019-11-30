@@ -1,0 +1,7 @@
+{
+  "name": "Web To Android",
+  "description": "Convert any web app or website to a Jasonette compatible Android project that can be built using JSON markup",
+  "repository": "https://github.com/mohammadnajmuzzaman/WebToAndroid",
+  "logo": "https://previews.123rf.com/images/rastudio/rastudio1606/rastudio160601931/57828716-android-with-gear-vector-sketch-icon-isolated-on-background-hand-drawn-android-with-gear-icon-androi.jpg",
+  "keywords": ["node", "express", "android", "webapp", "jasonette", "jasonelle", "json"]
+}
