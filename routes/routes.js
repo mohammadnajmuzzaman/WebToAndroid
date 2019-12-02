@@ -6,7 +6,7 @@ const { check, validationResult } = require('express-validator');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Web To Android-as-JSON' });
+    res.render('index', { title: 'Web To Android-as-JSON Converter' });
     console.log("User at homepage");
 });
 
