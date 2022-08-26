@@ -15,7 +15,7 @@
     "fs": "0.0.1-security",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "node-sass-middleware": "0.11.0",
+    "node-sass-middleware": "1.0.1",
     "window": "^4.2.6"
   }
 }
