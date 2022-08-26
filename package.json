@@ -11,7 +11,7 @@
     "debug": "~2.6.9",
     "ejs": "~3.1.7",
     "express": "~4.16.1",
-    "express-validator": "^6.3.0",
+    "express-validator": "^6.14.2",
     "fs": "0.0.1-security",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
